@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:31:06.3199971Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="None">
+    <Member Name="_1" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 01</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 01</MultiLanguageText></Comment></Member>
+    <Member Name="_2" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 02</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 02</MultiLanguageText></Comment></Member>
+    <Member Name="_3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 03</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 03</MultiLanguageText></Comment></Member>
+    <Member Name="_4" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 04</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 04</MultiLanguageText></Comment></Member>
+    <Member Name="_5" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 05</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 05</MultiLanguageText></Comment></Member>
+    <Member Name="_6" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 06</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 06</MultiLanguageText></Comment></Member>
+    <Member Name="_7" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 07</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 07</MultiLanguageText></Comment></Member>
+    <Member Name="_8" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 08</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 08</MultiLanguageText></Comment></Member>
+    <Member Name="_9" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 09</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 09</MultiLanguageText></Comment></Member>
+    <Member Name="_10" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 10</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 10</MultiLanguageText></Comment></Member>
+    <Member Name="_11" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 11</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 11</MultiLanguageText></Comment></Member>
+    <Member Name="_12" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 12</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 12</MultiLanguageText></Comment></Member>
+    <Member Name="_13" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 13</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 13</MultiLanguageText></Comment></Member>
+    <Member Name="_14" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 14</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 14</MultiLanguageText></Comment></Member>
+    <Member Name="_15" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 15</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 15</MultiLanguageText></Comment></Member>
+    <Member Name="_16" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 16</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 16</MultiLanguageText></Comment></Member>
+    <Member Name="_17" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 17</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 17</MultiLanguageText></Comment></Member>
+    <Member Name="_18" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 18</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 18</MultiLanguageText></Comment></Member>
+    <Member Name="_19" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 19</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 19</MultiLanguageText></Comment></Member>
+    <Member Name="_20" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 20</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 20</MultiLanguageText></Comment></Member>
+    <Member Name="_21" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 21</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 21</MultiLanguageText></Comment></Member>
+    <Member Name="_22" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 22</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 22</MultiLanguageText></Comment></Member>
+    <Member Name="_23" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 23</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 23</MultiLanguageText></Comment></Member>
+    <Member Name="_24" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 24</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 24</MultiLanguageText></Comment></Member>
+    <Member Name="_25" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 25</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 25</MultiLanguageText></Comment></Member>
+    <Member Name="_26" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 26</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 26</MultiLanguageText></Comment></Member>
+    <Member Name="_27" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 27</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 27</MultiLanguageText></Comment></Member>
+    <Member Name="_28" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 28</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 28</MultiLanguageText></Comment></Member>
+    <Member Name="_29" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 29</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 29</MultiLanguageText></Comment></Member>
+    <Member Name="_30" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 30</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 30</MultiLanguageText></Comment></Member>
+    <Member Name="_31" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 31</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 31</MultiLanguageText></Comment></Member>
+    <Member Name="_32" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">SELECCION EXECUTABILIDAD RESET CAMPO 32</MultiLanguageText><MultiLanguageText Lang="es-AR">SELECCION EXECUTABILIDAD RESET CAMPO 32</MultiLanguageText></Comment></Member>
+  </Section>
+</Sections></Interface>
+      <IsFailsafeCompliant>false</IsFailsafeCompliant>
+      <Name>SELECCION-EXR</Name>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

@@ -1,0 +1,2116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:31:06.0705032Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.FB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="KLI05_RING" Datatype="&quot;RING_FAULT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="DEVICE_ID" Datatype="DWord" /><Member Name="TIMER" Datatype="Timer" /></Section><Section Name="Output"><Member Name="RFAULT" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status" Datatype="DWord" /><Member Name="Valid" Datatype="Bool" /><Member Name="lengthOut" Datatype="Int" /><Member Name="Busy" Datatype="Bool" /><Member Name="Error" Datatype="Bool" /><Member Name="RFAULT_TEMP" Datatype="Bool" /><Member Name="RDREC_Port" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+10R-CPX1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+030R-A1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+R1RIP2-A1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+R1RIP1-A1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+R1KF2-KA1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+R1KF1-KA1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+KLSG1-A1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+030L-A1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD+10L-CPX1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD-CPX1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="KLI05-SW2" Datatype="&quot;FPORT_8PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="Port3_ID" Datatype="DWord" /><Member Name="Port4_ID" Datatype="DWord" /><Member Name="Port5_ID" Datatype="DWord" /><Member Name="Port6_ID" Datatype="DWord" /><Member Name="Port7_ID" Datatype="DWord" /><Member Name="Port8_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /><Member Name="Port3_Fault" Datatype="Bool" /><Member Name="Port4_Fault" Datatype="Bool" /><Member Name="Port5_Fault" Datatype="Bool" /><Member Name="Port6_Fault" Datatype="Bool" /><Member Name="Port7_Fault" Datatype="Bool" /><Member Name="Port8_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Status_3" Datatype="DWord" /><Member Name="Status_4" Datatype="DWord" /><Member Name="Status_5" Datatype="DWord" /><Member Name="Status_6" Datatype="DWord" /><Member Name="Status_7" Datatype="DWord" /><Member Name="Status_8" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="Valid_3" Datatype="Bool" /><Member Name="Valid_4" Datatype="Bool" /><Member Name="Valid_5" Datatype="Bool" /><Member Name="Valid_6" Datatype="Bool" /><Member Name="Valid_7" Datatype="Bool" /><Member Name="Valid_8" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="lengthOut_3" Datatype="Int" /><Member Name="lengthOut_4" Datatype="Int" /><Member Name="lengthOut_5" Datatype="Int" /><Member Name="lengthOut_6" Datatype="Int" /><Member Name="lengthOut_7" Datatype="Int" /><Member Name="lengthOut_8" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Busy_3" Datatype="Bool" /><Member Name="Busy_4" Datatype="Bool" /><Member Name="Busy_5" Datatype="Bool" /><Member Name="Busy_6" Datatype="Bool" /><Member Name="Busy_7" Datatype="Bool" /><Member Name="Busy_8" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="Error_3" Datatype="Bool" /><Member Name="Error_4" Datatype="Bool" /><Member Name="Error_5" Datatype="Bool" /><Member Name="Error_6" Datatype="Bool" /><Member Name="Error_7" Datatype="Bool" /><Member Name="Error_8" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port3" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port4" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port5" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port6" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port7" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port8" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="KLI05-SW1" Datatype="&quot;FPORT_8PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="Port3_ID" Datatype="DWord" /><Member Name="Port4_ID" Datatype="DWord" /><Member Name="Port5_ID" Datatype="DWord" /><Member Name="Port6_ID" Datatype="DWord" /><Member Name="Port7_ID" Datatype="DWord" /><Member Name="Port8_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /><Member Name="Port3_Fault" Datatype="Bool" /><Member Name="Port4_Fault" Datatype="Bool" /><Member Name="Port5_Fault" Datatype="Bool" /><Member Name="Port6_Fault" Datatype="Bool" /><Member Name="Port7_Fault" Datatype="Bool" /><Member Name="Port8_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Status_3" Datatype="DWord" /><Member Name="Status_4" Datatype="DWord" /><Member Name="Status_5" Datatype="DWord" /><Member Name="Status_6" Datatype="DWord" /><Member Name="Status_7" Datatype="DWord" /><Member Name="Status_8" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="Valid_3" Datatype="Bool" /><Member Name="Valid_4" Datatype="Bool" /><Member Name="Valid_5" Datatype="Bool" /><Member Name="Valid_6" Datatype="Bool" /><Member Name="Valid_7" Datatype="Bool" /><Member Name="Valid_8" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="lengthOut_3" Datatype="Int" /><Member Name="lengthOut_4" Datatype="Int" /><Member Name="lengthOut_5" Datatype="Int" /><Member Name="lengthOut_6" Datatype="Int" /><Member Name="lengthOut_7" Datatype="Int" /><Member Name="lengthOut_8" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Busy_3" Datatype="Bool" /><Member Name="Busy_4" Datatype="Bool" /><Member Name="Busy_5" Datatype="Bool" /><Member Name="Busy_6" Datatype="Bool" /><Member Name="Busy_7" Datatype="Bool" /><Member Name="Busy_8" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="Error_3" Datatype="Bool" /><Member Name="Error_4" Datatype="Bool" /><Member Name="Error_5" Datatype="Bool" /><Member Name="Error_6" Datatype="Bool" /><Member Name="Error_7" Datatype="Bool" /><Member Name="Error_8" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port3" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port4" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port5" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port6" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port7" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port8" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+    <Member Name="++PD-A1" Datatype="&quot;FPORT_2PORT_FB&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ENA" Datatype="Bool" /><Member Name="REQ" Datatype="Bool" /><Member Name="Port1_ID" Datatype="DWord" /><Member Name="Port2_ID" Datatype="DWord" /><Member Name="PROFI_FAULT" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Port1_Fault" Datatype="Bool" /><Member Name="Port2_Fault" Datatype="Bool" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="Status_1" Datatype="DWord" /><Member Name="Status_2" Datatype="DWord" /><Member Name="Valid_1" Datatype="Bool" /><Member Name="Valid_2" Datatype="Bool" /><Member Name="lengthOut_1" Datatype="Int" /><Member Name="lengthOut_2" Datatype="Int" /><Member Name="Busy_1" Datatype="Bool" /><Member Name="Busy_2" Datatype="Bool" /><Member Name="Error_1" Datatype="Bool" /><Member Name="Error_2" Datatype="Bool" /><Member Name="RDREC_Port1" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member><Member Name="RDREC_Port2" Datatype="RDREC" Version="1.0"><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="DWord" /><Member Name="INDEX" Datatype="Int" /><Member Name="MLEN" Datatype="Int" /></Section><Section Name="Output"><Member Name="VALID" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="DWord" /><Member Name="LEN" Datatype="Int" /></Section><Section Name="InOut"><Member Name="RECORD" Datatype="Any" /></Section><Section Name="Static" /></Sections></Member></Section></Sections></Member>
+  </Section>
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <Name>002_FPORT_KLI05</Name>
+      <Number>52</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <UDABlockProperties />
+      <UDAEnableTagReadback>false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="5" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E7F</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="KLI05_RING_FAULT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="26" />
+    <Part Name="Contact" UId="27" />
+    <Call UId="28">
+      <CallInfo Name="RING_FAULT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="29">
+          <Component Name="KLI05_RING" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="DEVICE_ID" Section="Input" Type="DWord" />
+        <Parameter Name="TIMER" Section="Input" Type="Timer" />
+        <Parameter Name="RFAULT" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="30">
+      <Powerrail />
+      <NameCon UId="28" Name="en" />
+      <NameCon UId="26" Name="in" />
+      <NameCon UId="27" Name="in" />
+    </Wire>
+    <Wire UId="31">
+      <IdentCon UId="21" />
+      <NameCon UId="26" Name="operand" />
+    </Wire>
+    <Wire UId="32">
+      <NameCon UId="26" Name="out" />
+      <NameCon UId="28" Name="ENA" />
+    </Wire>
+    <Wire UId="33">
+      <IdentCon UId="22" />
+      <NameCon UId="27" Name="operand" />
+    </Wire>
+    <Wire UId="34">
+      <NameCon UId="27" Name="out" />
+      <NameCon UId="28" Name="REQ" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="28" Name="DEVICE_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="28" Name="TIMER" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="28" Name="RFAULT" />
+      <IdentCon UId="25" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>ID=7807=16#1E7F</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="9" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>KLI05 - FALLA DE ANILLO</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="E" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E64</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E63</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_121" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD-A1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="F" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="10" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7780=16#1E64
+Port2=7779=16#1E63</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="12" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="13" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="15" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD-A1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="16" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="17" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E5E</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E5F</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LocalVariable" UId="25">
+      <Symbol>
+        <Component Name="++PD+10R-CPX1" />
+        <Component Name="PROFI_FAULT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+10R-CPX1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+10R-CPX1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+10R-CPX1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="1A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7774=16#1E5E
+Port2=7775=16#1E5F
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1C" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="1D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="1E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+10R-CPX1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="1F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="20" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E39</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E38</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_123" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+030R-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+030R-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+030R-A1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="21" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="22" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="23" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7737=16#1E39
+Port2=7736=16#1E38</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="24" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="25" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="26" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="27" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+030R-A1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="28" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="29" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EBC</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EBB</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_115" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1RIP2-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1RIP2-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+R1RIP2-A1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="2C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7868=16#1EBC
+Port2=7867=16#1EBB</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="2D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="2E" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="30" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+R1RIP2-A1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="31" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="32" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1F80</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EBF</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_114" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1RIP1-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1RIP1-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+R1RIP1-A1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="33" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="34" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="35" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=8064=16#1F80
+Port2=7871=16#1EBF</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="36" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="37" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="38" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="39" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+R1RIP1-A1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="3A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3B" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E90</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E8F</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_118" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1KF2-KA1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1KF2-KA1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+R1KF2-KA1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="3E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7824=16#1E90
+Port2=7823=16#1E8F</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="3F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="40" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="41" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="42" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+R1KF2-KA1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="43" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="44" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E86</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EB5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_117" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1KF1-KA1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+R1KF1-KA1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+R1KF1-KA1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="45" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="46" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="47" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7862=16#1EB6
+Port2=7861=16#1EB5</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="48" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="49" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="4A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="4B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+R1KF1-KA1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="4C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="4D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EF0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EF1</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_111" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+KLSG1-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+KLSG1-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+KLSG1-A1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="4F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="50" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7920=16#1EF0
+Port2=7921=16#1EF1
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="51" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="52" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="53" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="54" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+KLSG1-A1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="55" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="56" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E3E</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E3D</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_122" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+030L-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+030L-A1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+030L-A1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="57" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="58" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="59" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7742=16#1E3E
+Port2=7741=16#1E3D
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="5A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="5B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="5C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="5D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+030L-A1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="5E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="5F" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E4C</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1E4D</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_155" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+10L-CPX1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD+10L-CPX1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD+10L-CPX1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="60" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="61" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="62" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7756=16#1E4C
+Port2=7757=16#1E4D
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="63" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="64" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="65" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="66" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD+10L-CPX1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="67" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="68" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="KLI05_RING" />
+        <Component Name="Fault" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EB0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>16#1EB1</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="PROFI_FAULT" />
+        <Component Name="Profinet_Fault_154" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD-CPX1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>1</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Device_Port_Fault" />
+        <Component Name="++PD-CPX1" />
+        <Component Name="Fault" AccessModifier="Array">
+          <Access Scope="LiteralConstant">
+            <Constant>
+              <ConstantType>DInt</ConstantType>
+              <ConstantValue>2</ConstantValue>
+            </Constant>
+          </Access>
+        </Component>
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Call UId="29">
+      <CallInfo Name="FPORT_2PORT_FB" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="30">
+          <Component Name="++PD-CPX1" />
+        </Instance>
+        <Parameter Name="ENA" Section="Input" Type="Bool" />
+        <Parameter Name="REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_ID" Section="Input" Type="DWord" />
+        <Parameter Name="Port2_ID" Section="Input" Type="DWord" />
+        <Parameter Name="PROFI_FAULT" Section="Input" Type="Bool" />
+        <Parameter Name="Port1_Fault" Section="Output" Type="Bool" />
+        <Parameter Name="Port2_Fault" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="29" Name="en" />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="33">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="REQ" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="ENA" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="23" />
+      <NameCon UId="29" Name="Port1_ID" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="24" />
+      <NameCon UId="29" Name="Port2_ID" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="PROFI_FAULT" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="29" Name="Port1_Fault" />
+      <IdentCon UId="26" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="Port2_Fault" />
+      <IdentCon UId="27" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="69" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="6B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Port1=7856=16#1EB0
+Port2=7857=16#1EB1
+</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="6C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6D" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="6E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="6F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>++PD-CPX1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="70" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="71" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="72" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="73" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="74" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FB>
+</Document>

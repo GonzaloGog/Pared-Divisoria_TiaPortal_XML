@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:30:53.4920931Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor>SIEMENS</HeaderAuthor>
+      <HeaderFamily>COMM</HeaderFamily>
+      <HeaderName>MODB_PAR</HeaderName>
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="Static">
+    <Member Name="Connection_1" Datatype="&quot;MB_PN_PARAM&quot;" Remanence="Retain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="Connection settings" Datatype="Struct"><Member Name="block_length" Datatype="Word" /><Member Name="id" Datatype="Word"><StartValue>16#0001</StartValue></Member><Member Name="connection_type" Datatype="Byte"><StartValue>16#0011</StartValue></Member><Member Name="active_est" Datatype="Bool"><StartValue>FALSE</StartValue></Member><Member Name="local_device_id" Datatype="Byte"><StartValue>16#0003</StartValue></Member><Member Name="local_tsap_id_len" Datatype="Byte"><StartValue>16#0002</StartValue></Member><Member Name="rem_subnet_id_len" Datatype="Byte" /><Member Name="rem_staddr_len" Datatype="Byte"><StartValue>16#0</StartValue></Member><Member Name="rem_tsap_id_len" Datatype="Byte"><StartValue>16#0</StartValue></Member><Member Name="next_staddr_len" Datatype="Byte" /><Member Name="local_tsap_id" Datatype="Array[1..16] of Byte"><Subelement Path="1"><StartValue>16#0001</StartValue></Subelement><Subelement Path="2"><StartValue>16#00F6</StartValue></Subelement></Member><Member Name="rem_subnet_id" Datatype="Array[1..6] of Byte" /><Member Name="rem_staddr" Datatype="Array[1..6] of Byte"><Subelement Path="1"><StartValue>16#0</StartValue></Subelement><Subelement Path="2"><StartValue>16#0</StartValue></Subelement><Subelement Path="3"><StartValue>16#0</StartValue></Subelement><Subelement Path="4"><StartValue>16#0</StartValue></Subelement></Member><Member Name="rem_tsap_id" Datatype="Array[1..16] of Byte"><Subelement Path="1"><StartValue>16#0</StartValue></Subelement><Subelement Path="2"><StartValue>16#0</StartValue></Subelement></Member><Member Name="next_staddr" Datatype="Array[1..6] of Byte" /><Member Name="spare" Datatype="Word" /></Member><Member Name="Modbus settings" Datatype="Struct"><Member Name="server_client" Datatype="Bool"><StartValue>TRUE</StartValue></Member><Member Name="single_write" Datatype="Bool" /><Member Name="connect_at_startup" Datatype="Bool" /><Member Name="reserved" Datatype="Byte" /><Member Name="data_areas" Datatype="Struct"><Member Name="data_area_1" Datatype="Struct"><Member Name="data_type" Datatype="Byte"><StartValue>16#0003</StartValue></Member><Member Name="db" Datatype="Word"><StartValue>2010</StartValue></Member><Member Name="start" Datatype="Word"><StartValue>1</StartValue></Member><Member Name="end" Datatype="Word"><StartValue>500</StartValue></Member></Member><Member Name="data_area_2" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member><Member Name="data_area_3" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member><Member Name="data_area_4" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member><Member Name="data_area_5" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member><Member Name="data_area_6" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member><Member Name="data_area_7" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member><Member Name="data_area_8" Datatype="Struct"><Member Name="data_type" Datatype="Byte" /><Member Name="db" Datatype="Word" /><Member Name="start" Datatype="Word" /><Member Name="end" Datatype="Word" /></Member></Member><Member Name="internal_send_buffer" Datatype="Array[1..260] of Byte" /><Member Name="internal_recv_buffer" Datatype="Array[1..260] of Byte" /></Member></Section></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <IsOnlyStoredInLoadMemory>false</IsOnlyStoredInLoadMemory>
+      <IsWriteProtectedInAS>false</IsWriteProtectedInAS>
+      <Name>FPS_MODBUS_PARAM</Name>
+      <Number>2002</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text>Parameters for Modbus TCP</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

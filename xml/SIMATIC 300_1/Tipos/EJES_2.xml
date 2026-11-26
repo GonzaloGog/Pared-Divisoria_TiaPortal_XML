@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:31:07.2890474Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="None">
+    <Member Name="GATE_1" Datatype="&quot;EJE&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="WR_PZD_POS" Datatype="Struct"><Member Name="STW1_Ctrl_Word" Datatype="Struct"><Member Name="Jog_1" Datatype="Bool" /><Member Name="Jog_2" Datatype="Bool" /><Member Name="LB" Datatype="Bool" /><Member Name="RefStart" Datatype="Bool" /><Member Name="res_12" Datatype="Bool" /><Member Name="Externer_Satzwechsel" Datatype="Bool" /><Member Name="res_14" Datatype="Bool" /><Member Name="res_15" Datatype="Bool" /><Member Name="OFF1" Datatype="Bool" /><Member Name="CoastStop_OFF2" Datatype="Bool" /><Member Name="QuickStop_OFF3" Datatype="Bool" /><Member Name="ENC" Datatype="Bool" /><Member Name="RejTrvTask" Datatype="Bool" /><Member Name="IntMStop" Datatype="Bool" /><Member Name="TrvStart" Datatype="Bool" /><Member Name="AckFault" Datatype="Bool" /></Member><Member Name="EPosSTW1" Datatype="Struct"><Member Name="MDIPsTyp" Datatype="Bool" /><Member Name="MDIPos" Datatype="Bool" /><Member Name="MDINeg" Datatype="Bool" /><Member Name="res_11" Datatype="Bool" /><Member Name="MDITrTyp" Datatype="Bool" /><Member Name="res_13" Datatype="Bool" /><Member Name="MDISetup" Datatype="Bool" /><Member Name="MDIStart" Datatype="Bool" /><Member Name="TrvBit_0" Datatype="Bool" /><Member Name="TrvBit_1" Datatype="Bool" /><Member Name="TrvBit_2" Datatype="Bool" /><Member Name="TrvBit_3" Datatype="Bool" /><Member Name="TrvBit_4" Datatype="Bool" /><Member Name="TrvBit_5" Datatype="Bool" /><Member Name="res_6" Datatype="Bool" /><Member Name="res_7" Datatype="Bool" /></Member><Member Name="EPosSTW2" Datatype="Struct"><Member Name="RefType" Datatype="Bool" /><Member Name="RefStDi" Datatype="Bool" /><Member Name="RefInpS" Datatype="Bool" /><Member Name="RefEdge" Datatype="Bool" /><Member Name="res_12" Datatype="Bool" /><Member Name="res_13" Datatype="Bool" /><Member Name="SftLimAct" Datatype="Bool" /><Member Name="StpCamAct" Datatype="Bool" /><Member Name="TrckMode" Datatype="Bool" /><Member Name="SetRefPt" Datatype="Bool" /><Member Name="ActRefCam" Datatype="Bool" /><Member Name="ActFxdStp" Datatype="Bool" /><Member Name="res_4" Datatype="Bool" /><Member Name="Jog_Inc" Datatype="Bool" /><Member Name="res_6" Datatype="Bool" /><Member Name="res_7" Datatype="Bool" /></Member><Member Name="STW2" Datatype="Struct"><Member Name="TrvFixedStp" Datatype="Bool" /><Member Name="GlbTrggCom" Datatype="Bool" /><Member Name="res_2" Datatype="Bool" /><Member Name="MotSwOver" Datatype="Bool" /><Member Name="MsZyk_Bit0" Datatype="Bool" /><Member Name="MsZyk_Bit1" Datatype="Bool" /><Member Name="MsZyk_Bit2" Datatype="Bool" /><Member Name="MsZyk_Bit3" Datatype="Bool" /><Member Name="DDS_Bit0" Datatype="Bool" /><Member Name="DDS_Bit1" Datatype="Bool" /><Member Name="DDS_Bit2" Datatype="Bool" /><Member Name="DDS_Bit3" Datatype="Bool" /><Member Name="DDS_Bit4" Datatype="Bool" /><Member Name="GlbStart" Datatype="Bool" /><Member Name="ResIComp" Datatype="Bool" /><Member Name="ActPrkAxis" Datatype="Bool" /></Member><Member Name="OVERRIDE" Datatype="Int" /><Member Name="MDIPos" Datatype="DInt" /><Member Name="MDIVel" Datatype="DInt" /><Member Name="MDIAcc" Datatype="Int" /><Member Name="MDIDec" Datatype="Int" /><Member Name="Reserve" Datatype="Word" /></Member><Member Name="RD_PZD_POS" Datatype="Struct"><Member Name="ZSW1_Stat_Word" Datatype="Struct"><Member Name="NoFlwErr" Datatype="Bool" /><Member Name="LB_CR" Datatype="Bool" /><Member Name="TargPos" Datatype="Bool" /><Member Name="RefPSet" Datatype="Bool" /><Member Name="TrvTskAck" Datatype="Bool" /><Member Name="Stndstill" Datatype="Bool" /><Member Name="ACCEL" Datatype="Bool" /><Member Name="DECEL" Datatype="Bool" /><Member Name="RTS" Datatype="Bool" /><Member Name="RDY" Datatype="Bool" /><Member Name="IOP" Datatype="Bool" /><Member Name="Fault" Datatype="Bool" /><Member Name="NoOff2Act" Datatype="Bool" /><Member Name="NoOff3Act" Datatype="Bool" /><Member Name="PowerInhibit" Datatype="Bool" /><Member Name="Alarm" Datatype="Bool" /></Member><Member Name="EPosZSW1" Datatype="Struct"><Member Name="StpCamMinAct" Datatype="Bool" /><Member Name="StpCamPlsAct" Datatype="Bool" /><Member Name="JogAct" Datatype="Bool" /><Member Name="RefAct" Datatype="Bool" /><Member Name="FlyRefAct" Datatype="Bool" /><Member Name="TrvBlkAct" Datatype="Bool" /><Member Name="MDIStupAct" Datatype="Bool" /><Member Name="MDIPos_aktiv" Datatype="Bool" /><Member Name="ActTrvBit_0" Datatype="Bool" /><Member Name="ActTrvBit_1" Datatype="Bool" /><Member Name="ActTrvBit_2" Datatype="Bool" /><Member Name="ActTrvBit_3" Datatype="Bool" /><Member Name="ActTrvBit_4" Datatype="Bool" /><Member Name="ActTrvBit_5" Datatype="Bool" /><Member Name="res_6" Datatype="Bool" /><Member Name="res_7" Datatype="Bool" /></Member><Member Name="EPosZSW2" Datatype="Struct"><Member Name="PosSmCam1" Datatype="Bool" /><Member Name="PosSmCam2" Datatype="Bool" /><Member Name="TrvOut1" Datatype="Bool" /><Member Name="TrvOut2" Datatype="Bool" /><Member Name="FxStpRd" Datatype="Bool" /><Member Name="FxStpClpTrqRd" Datatype="Bool" /><Member Name="TrvFxStpAct" Datatype="Bool" /><Member Name="CmdAct" Datatype="Bool" /><Member Name="TrckModeAct" Datatype="Bool" /><Member Name="VeloLimAct" Datatype="Bool" /><Member Name="SetPStat" Datatype="Bool" /><Member Name="PrntMrkOut" Datatype="Bool" /><Member Name="FWD" Datatype="Bool" /><Member Name="BWD" Datatype="Bool" /><Member Name="SftSwMinAct" Datatype="Bool" /><Member Name="SftSwPosAct" Datatype="Bool" /></Member><Member Name="ZSW2" Datatype="Struct"><Member Name="NotUsed" Datatype="Bool" /><Member Name="GlbTrggReq" Datatype="Bool" /><Member Name="PulsEn" Datatype="Bool" /><Member Name="MotSwOverAct" Datatype="Bool" /><Member Name="SlvZykl_Bit0" Datatype="Bool" /><Member Name="SlvZykl_Bit1" Datatype="Bool" /><Member Name="SlvZykl_Bit2" Datatype="Bool" /><Member Name="SlvZykl_Bit3" Datatype="Bool" /><Member Name="ActDDS_Bit0" Datatype="Bool" /><Member Name="ActDDS_Bit1" Datatype="Bool" /><Member Name="ActDDS_Bit2" Datatype="Bool" /><Member Name="ActDDS_Bit3" Datatype="Bool" /><Member Name="ActDDS_Bit4" Datatype="Bool" /><Member Name="CmdActRelBrk" Datatype="Bool" /><Member Name="TrqContMode" Datatype="Bool" /><Member Name="ParkAxisAct" Datatype="Bool" /></Member><Member Name="MeldW" Datatype="Struct"><Member Name="n_soll_ist_n_ist" Datatype="Bool" /><Member Name="reserviert2" Datatype="Bool" /><Member Name="LeistStrom_nicht_begr" Datatype="Bool" /><Member Name="reserviert4" Datatype="Bool" /><Member Name="reserviert5" Datatype="Bool" /><Member Name="FRG_Impulse" Datatype="Bool" /><Member Name="reserviert6" Datatype="Bool" /><Member Name="reserviert7" Datatype="Bool" /><Member Name="Hochlaufvorgang_beendet" Datatype="Bool" /><Member Name="M_kleiner_Mx" Datatype="Bool" /><Member Name="n_ist_kleiner_n_min" Datatype="Bool" /><Member Name="n_ist_kleiner_n_x" Datatype="Bool" /><Member Name="Zwischenkreisueberw" Datatype="Bool" /><Member Name="Variable_Meldefunktion" Datatype="Bool" /><Member Name="MotoruebertempVorwarnung" Datatype="Bool" /><Member Name="KuehlkoerpertempVorwarn" Datatype="Bool" /></Member><Member Name="Pos_Actual" Datatype="DInt" /><Member Name="Vel_Actual" Datatype="DInt" /><Member Name="Falla" Datatype="Word" /><Member Name="Aviso" Datatype="Word" /><Member Name="Reserve" Datatype="Word" /></Member><Member Name="Posicion" Datatype="Array[1..8] of Struct"><Member Name="Coordenada" Datatype="DInt" /><Member Name="Velocidad" Datatype="DInt" /><Member Name="Acceleracion" Datatype="Int" /><Member Name="Desaceleracion" Datatype="Int" /></Member><Member Name="Hab_Posicion" Datatype="Array[1..8] of Bool" /><Member Name="En_posicion" Datatype="Array[1..8] of Bool" /><Member Name="Estado_pos" Datatype="Array[1..8] of &quot;CONTROL&quot;"><Sections><Section Name="None"><Member Name="EST_0" Datatype="Bool" /><Member Name="EST_1" Datatype="Bool" /><Member Name="TAV" Datatype="Bool" /><Member Name="TAR" Datatype="Bool" /><Member Name="EST_2" Datatype="Bool" /><Member Name="SALVA" Datatype="Bool" /><Member Name="Fault_ON" Datatype="Bool" /><Member Name="Fault_OFF" Datatype="Bool" /><Member Name="RESET" Datatype="Bool" /><Member Name="Tempo" Datatype="Array[0..4] of Byte" /><Member Name="Estado" Datatype="Int" /></Section></Sections></Member></Section></Sections></Member>
+    <Member Name="GATE_2" Datatype="&quot;EJE&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="WR_PZD_POS" Datatype="Struct"><Member Name="STW1_Ctrl_Word" Datatype="Struct"><Member Name="Jog_1" Datatype="Bool" /><Member Name="Jog_2" Datatype="Bool" /><Member Name="LB" Datatype="Bool" /><Member Name="RefStart" Datatype="Bool" /><Member Name="res_12" Datatype="Bool" /><Member Name="Externer_Satzwechsel" Datatype="Bool" /><Member Name="res_14" Datatype="Bool" /><Member Name="res_15" Datatype="Bool" /><Member Name="OFF1" Datatype="Bool" /><Member Name="CoastStop_OFF2" Datatype="Bool" /><Member Name="QuickStop_OFF3" Datatype="Bool" /><Member Name="ENC" Datatype="Bool" /><Member Name="RejTrvTask" Datatype="Bool" /><Member Name="IntMStop" Datatype="Bool" /><Member Name="TrvStart" Datatype="Bool" /><Member Name="AckFault" Datatype="Bool" /></Member><Member Name="EPosSTW1" Datatype="Struct"><Member Name="MDIPsTyp" Datatype="Bool" /><Member Name="MDIPos" Datatype="Bool" /><Member Name="MDINeg" Datatype="Bool" /><Member Name="res_11" Datatype="Bool" /><Member Name="MDITrTyp" Datatype="Bool" /><Member Name="res_13" Datatype="Bool" /><Member Name="MDISetup" Datatype="Bool" /><Member Name="MDIStart" Datatype="Bool" /><Member Name="TrvBit_0" Datatype="Bool" /><Member Name="TrvBit_1" Datatype="Bool" /><Member Name="TrvBit_2" Datatype="Bool" /><Member Name="TrvBit_3" Datatype="Bool" /><Member Name="TrvBit_4" Datatype="Bool" /><Member Name="TrvBit_5" Datatype="Bool" /><Member Name="res_6" Datatype="Bool" /><Member Name="res_7" Datatype="Bool" /></Member><Member Name="EPosSTW2" Datatype="Struct"><Member Name="RefType" Datatype="Bool" /><Member Name="RefStDi" Datatype="Bool" /><Member Name="RefInpS" Datatype="Bool" /><Member Name="RefEdge" Datatype="Bool" /><Member Name="res_12" Datatype="Bool" /><Member Name="res_13" Datatype="Bool" /><Member Name="SftLimAct" Datatype="Bool" /><Member Name="StpCamAct" Datatype="Bool" /><Member Name="TrckMode" Datatype="Bool" /><Member Name="SetRefPt" Datatype="Bool" /><Member Name="ActRefCam" Datatype="Bool" /><Member Name="ActFxdStp" Datatype="Bool" /><Member Name="res_4" Datatype="Bool" /><Member Name="Jog_Inc" Datatype="Bool" /><Member Name="res_6" Datatype="Bool" /><Member Name="res_7" Datatype="Bool" /></Member><Member Name="STW2" Datatype="Struct"><Member Name="TrvFixedStp" Datatype="Bool" /><Member Name="GlbTrggCom" Datatype="Bool" /><Member Name="res_2" Datatype="Bool" /><Member Name="MotSwOver" Datatype="Bool" /><Member Name="MsZyk_Bit0" Datatype="Bool" /><Member Name="MsZyk_Bit1" Datatype="Bool" /><Member Name="MsZyk_Bit2" Datatype="Bool" /><Member Name="MsZyk_Bit3" Datatype="Bool" /><Member Name="DDS_Bit0" Datatype="Bool" /><Member Name="DDS_Bit1" Datatype="Bool" /><Member Name="DDS_Bit2" Datatype="Bool" /><Member Name="DDS_Bit3" Datatype="Bool" /><Member Name="DDS_Bit4" Datatype="Bool" /><Member Name="GlbStart" Datatype="Bool" /><Member Name="ResIComp" Datatype="Bool" /><Member Name="ActPrkAxis" Datatype="Bool" /></Member><Member Name="OVERRIDE" Datatype="Int" /><Member Name="MDIPos" Datatype="DInt" /><Member Name="MDIVel" Datatype="DInt" /><Member Name="MDIAcc" Datatype="Int" /><Member Name="MDIDec" Datatype="Int" /><Member Name="Reserve" Datatype="Word" /></Member><Member Name="RD_PZD_POS" Datatype="Struct"><Member Name="ZSW1_Stat_Word" Datatype="Struct"><Member Name="NoFlwErr" Datatype="Bool" /><Member Name="LB_CR" Datatype="Bool" /><Member Name="TargPos" Datatype="Bool" /><Member Name="RefPSet" Datatype="Bool" /><Member Name="TrvTskAck" Datatype="Bool" /><Member Name="Stndstill" Datatype="Bool" /><Member Name="ACCEL" Datatype="Bool" /><Member Name="DECEL" Datatype="Bool" /><Member Name="RTS" Datatype="Bool" /><Member Name="RDY" Datatype="Bool" /><Member Name="IOP" Datatype="Bool" /><Member Name="Fault" Datatype="Bool" /><Member Name="NoOff2Act" Datatype="Bool" /><Member Name="NoOff3Act" Datatype="Bool" /><Member Name="PowerInhibit" Datatype="Bool" /><Member Name="Alarm" Datatype="Bool" /></Member><Member Name="EPosZSW1" Datatype="Struct"><Member Name="StpCamMinAct" Datatype="Bool" /><Member Name="StpCamPlsAct" Datatype="Bool" /><Member Name="JogAct" Datatype="Bool" /><Member Name="RefAct" Datatype="Bool" /><Member Name="FlyRefAct" Datatype="Bool" /><Member Name="TrvBlkAct" Datatype="Bool" /><Member Name="MDIStupAct" Datatype="Bool" /><Member Name="MDIPos_aktiv" Datatype="Bool" /><Member Name="ActTrvBit_0" Datatype="Bool" /><Member Name="ActTrvBit_1" Datatype="Bool" /><Member Name="ActTrvBit_2" Datatype="Bool" /><Member Name="ActTrvBit_3" Datatype="Bool" /><Member Name="ActTrvBit_4" Datatype="Bool" /><Member Name="ActTrvBit_5" Datatype="Bool" /><Member Name="res_6" Datatype="Bool" /><Member Name="res_7" Datatype="Bool" /></Member><Member Name="EPosZSW2" Datatype="Struct"><Member Name="PosSmCam1" Datatype="Bool" /><Member Name="PosSmCam2" Datatype="Bool" /><Member Name="TrvOut1" Datatype="Bool" /><Member Name="TrvOut2" Datatype="Bool" /><Member Name="FxStpRd" Datatype="Bool" /><Member Name="FxStpClpTrqRd" Datatype="Bool" /><Member Name="TrvFxStpAct" Datatype="Bool" /><Member Name="CmdAct" Datatype="Bool" /><Member Name="TrckModeAct" Datatype="Bool" /><Member Name="VeloLimAct" Datatype="Bool" /><Member Name="SetPStat" Datatype="Bool" /><Member Name="PrntMrkOut" Datatype="Bool" /><Member Name="FWD" Datatype="Bool" /><Member Name="BWD" Datatype="Bool" /><Member Name="SftSwMinAct" Datatype="Bool" /><Member Name="SftSwPosAct" Datatype="Bool" /></Member><Member Name="ZSW2" Datatype="Struct"><Member Name="NotUsed" Datatype="Bool" /><Member Name="GlbTrggReq" Datatype="Bool" /><Member Name="PulsEn" Datatype="Bool" /><Member Name="MotSwOverAct" Datatype="Bool" /><Member Name="SlvZykl_Bit0" Datatype="Bool" /><Member Name="SlvZykl_Bit1" Datatype="Bool" /><Member Name="SlvZykl_Bit2" Datatype="Bool" /><Member Name="SlvZykl_Bit3" Datatype="Bool" /><Member Name="ActDDS_Bit0" Datatype="Bool" /><Member Name="ActDDS_Bit1" Datatype="Bool" /><Member Name="ActDDS_Bit2" Datatype="Bool" /><Member Name="ActDDS_Bit3" Datatype="Bool" /><Member Name="ActDDS_Bit4" Datatype="Bool" /><Member Name="CmdActRelBrk" Datatype="Bool" /><Member Name="TrqContMode" Datatype="Bool" /><Member Name="ParkAxisAct" Datatype="Bool" /></Member><Member Name="MeldW" Datatype="Struct"><Member Name="n_soll_ist_n_ist" Datatype="Bool" /><Member Name="reserviert2" Datatype="Bool" /><Member Name="LeistStrom_nicht_begr" Datatype="Bool" /><Member Name="reserviert4" Datatype="Bool" /><Member Name="reserviert5" Datatype="Bool" /><Member Name="FRG_Impulse" Datatype="Bool" /><Member Name="reserviert6" Datatype="Bool" /><Member Name="reserviert7" Datatype="Bool" /><Member Name="Hochlaufvorgang_beendet" Datatype="Bool" /><Member Name="M_kleiner_Mx" Datatype="Bool" /><Member Name="n_ist_kleiner_n_min" Datatype="Bool" /><Member Name="n_ist_kleiner_n_x" Datatype="Bool" /><Member Name="Zwischenkreisueberw" Datatype="Bool" /><Member Name="Variable_Meldefunktion" Datatype="Bool" /><Member Name="MotoruebertempVorwarnung" Datatype="Bool" /><Member Name="KuehlkoerpertempVorwarn" Datatype="Bool" /></Member><Member Name="Pos_Actual" Datatype="DInt" /><Member Name="Vel_Actual" Datatype="DInt" /><Member Name="Falla" Datatype="Word" /><Member Name="Aviso" Datatype="Word" /><Member Name="Reserve" Datatype="Word" /></Member><Member Name="Posicion" Datatype="Array[1..8] of Struct"><Member Name="Coordenada" Datatype="DInt" /><Member Name="Velocidad" Datatype="DInt" /><Member Name="Acceleracion" Datatype="Int" /><Member Name="Desaceleracion" Datatype="Int" /></Member><Member Name="Hab_Posicion" Datatype="Array[1..8] of Bool" /><Member Name="En_posicion" Datatype="Array[1..8] of Bool" /><Member Name="Estado_pos" Datatype="Array[1..8] of &quot;CONTROL&quot;"><Sections><Section Name="None"><Member Name="EST_0" Datatype="Bool" /><Member Name="EST_1" Datatype="Bool" /><Member Name="TAV" Datatype="Bool" /><Member Name="TAR" Datatype="Bool" /><Member Name="EST_2" Datatype="Bool" /><Member Name="SALVA" Datatype="Bool" /><Member Name="Fault_ON" Datatype="Bool" /><Member Name="Fault_OFF" Datatype="Bool" /><Member Name="RESET" Datatype="Bool" /><Member Name="Tempo" Datatype="Array[0..4] of Byte" /><Member Name="Estado" Datatype="Int" /></Section></Sections></Member></Section></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <IsFailsafeCompliant>false</IsFailsafeCompliant>
+      <Name>EJES_2</Name>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

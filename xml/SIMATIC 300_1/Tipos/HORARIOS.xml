@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:31:06.6011186Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="None">
+    <Member Name="Hs_ini_T1" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Inicio Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Inicio Turno 1</MultiLanguageText></Comment><StartValue>TOD#6:0:0.000</StartValue></Member>
+    <Member Name="Hs_fin_T1" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Fin Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Fin Turno 1</MultiLanguageText></Comment><StartValue>TOD#14:59:59.000</StartValue></Member>
+    <Member Name="Hs_P1i_T1" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 1 Inicio Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 1 Inicio Turno 1</MultiLanguageText></Comment><StartValue>TOD#8:0:0.000</StartValue></Member>
+    <Member Name="Hs_P2i_T1" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 2 Inicio Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 2 Inicio Turno 1</MultiLanguageText></Comment><StartValue>TOD#11:0:0.000</StartValue></Member>
+    <Member Name="Hs_P3i_T1" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 3 Inicio Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 3 Inicio Turno 1</MultiLanguageText></Comment><StartValue>TOD#13:0:0.000</StartValue></Member>
+    <Member Name="Hs_P4i_T1" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 4 Inicio Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 4 Inicio Turno 1</MultiLanguageText></Comment></Member>
+    <Member Name="Hs_ini_T2" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Inicio Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Inicio Turno 2</MultiLanguageText></Comment><StartValue>TOD#15:0:0.000</StartValue></Member>
+    <Member Name="Hs_fin_T2" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Fin Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Fin Turno 2</MultiLanguageText></Comment><StartValue>TOD#23:59:59.000</StartValue></Member>
+    <Member Name="Hs_P1i_T2" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 1 Inicio Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 1 Inicio Turno 2</MultiLanguageText></Comment><StartValue>TOD#16:0:0.000</StartValue></Member>
+    <Member Name="Hs_P2i_T2" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 2 Inicio Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 2 Inicio Turno 2</MultiLanguageText></Comment><StartValue>TOD#18:0:0.000</StartValue></Member>
+    <Member Name="Hs_P3i_T2" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 3 Inicio Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 3 Inicio Turno 2</MultiLanguageText></Comment><StartValue>TOD#20:0:0.000</StartValue></Member>
+    <Member Name="Hs_P4i_T2" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 4 Inicio Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 4 Inicio Turno 2</MultiLanguageText></Comment></Member>
+    <Member Name="Hs_ini_T3" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Inicio Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Inicio Turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hs_fin_T3" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Fin Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Fin Turno 3</MultiLanguageText></Comment><StartValue>TOD#5:59:59.000</StartValue></Member>
+    <Member Name="Hs_P1i_T3" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 1 Inicio Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 1 Inicio Turno 3</MultiLanguageText></Comment><StartValue>TOD#2:0:0.000</StartValue></Member>
+    <Member Name="Hs_P2i_T3" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 2 Inicio Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 2 Inicio Turno 3</MultiLanguageText></Comment><StartValue>TOD#4:0:0.000</StartValue></Member>
+    <Member Name="Hs_P3i_T3" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 3 Inicio Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 3 Inicio Turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hs_P4i_T3" Datatype="Time_Of_Day"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Parada 4 Inicio Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Parada 4 Inicio Turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hoy_N_Pieza_T3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Numero de Piezas turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Numero de Piezas turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hoy_N_Ciclo_T3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Numero de Ciclo turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Numero de Ciclo turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Turn1" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Turno 1</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Turn2" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Turno 2</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Turn3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada1T1" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de parada 1 en turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de parada 1 en turno 1</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_parada2T1" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 2 en turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 2 en turno 1</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada3T1" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 3 en Turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 3 en Turno 1</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada4T1" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de parada 4 en turno 1</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de parada 4 en turno 1</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_parada1T2" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 1 en turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 1 en turno 2</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada2T2" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 2 en Turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 2 en Turno 2</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada3T2" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de parada 3 en turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de parada 3 en turno 2</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_parada4T2" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 4 en turno 2</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 4 en turno 2</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_parada1T3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 1 en turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 1 en turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada2T3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 2 en Turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 2 en Turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_Parada3T3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de parada 3 en turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de parada 3 en turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hab_parada4T3" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Habilitacion de Parada 4 en turno 3</MultiLanguageText><MultiLanguageText Lang="es-AR">Habilitacion de Parada 4 en turno 3</MultiLanguageText></Comment></Member>
+    <Member Name="Hs_Hab_Sab" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="Hs_Hab_Dom" Datatype="Bool"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="turno" Datatype="Int"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">0= Dia No Laborable, 1-10= Turno 1, 11-20= Turno 2, 21-30= Turno 3, 99=Cambio F</MultiLanguageText><MultiLanguageText Lang="es-AR">0= Dia No Laborable, 1-10= Turno 1, 11-20= Turno 2, 21-30= Turno 3, 99=Cambio F</MultiLanguageText></Comment></Member>
+    <Member Name="T_Almuerzo" Datatype="Time"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Tiempo de almuerzo</MultiLanguageText><MultiLanguageText Lang="es-AR">Tiempo de almuerzo</MultiLanguageText></Comment><StartValue>T#30ms</StartValue></Member>
+    <Member Name="T_Refrigerio" Datatype="Time"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="es-ES">Tiempo de refrigerio</MultiLanguageText><MultiLanguageText Lang="es-AR">Tiempo de refrigerio</MultiLanguageText></Comment><StartValue>T#10ms</StartValue></Member>
+    <Member Name="AUX_INT" Datatype="Int"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+  </Section>
+</Sections></Interface>
+      <IsFailsafeCompliant>false</IsFailsafeCompliant>
+      <Name>HORARIOS</Name>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

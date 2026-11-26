@@ -1,0 +1,1919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:30:28.0861258Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.FC ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor>EDAG</HeaderAuthor>
+      <HeaderFamily />
+      <HeaderName>EDAG</HeaderName>
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="Input">
+    <Member Name="_FLG_1" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 1 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 1 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_2" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 2 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 2 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_3" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 3 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 3 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_4" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 4 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 4 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_5" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 5 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 5 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_6" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 6 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 6 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_7" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 7 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 7 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_8" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 8 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 8 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_9" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 9 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 9 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_10" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 10 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 10 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_11" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 11 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 11 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_12" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 12 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 12 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_13" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 13 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 13 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_14" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 14 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 14 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_15" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PROGRAMA 15 ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PROGRAMA 15 ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_RFLG_1_15" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">RETORNO DE NUMERO DE PROGRAMA DO ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">RETORNO DE NUMERO DE PROGRAMA DO ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+  <Section Name="Output">
+    <Member Name="_FLG_1_15" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">NUMERO DE PROGRAMA PARA O ROBO</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">NUMERO DE PROGRAMA PARA O ROBO</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_IO" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">NUMERO DE PROGRAMA E RETORNO OK</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">NUMERO DE PROGRAMA E RETORNO OK</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_RFLG" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">PARIDADE DE PROGRAMA OK</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">PARIDADE DE PROGRAMA OK</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_FLG_NIO" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">NUMERO DE PROGRAMA NAO OK</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">NUMERO DE PROGRAMA NAO OK</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="_RFLG_NIO" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">RETORNO DE NUMERO DE PROGRAMA NAO OK</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">RETORNO DE NUMERO DE PROGRAMA NAO OK</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+  <Section Name="InOut" />
+  <Section Name="Temp">
+    <Member Name="Folge_TEMP" Datatype="Word" />
+  </Section>
+  <Section Name="Constant" />
+  <Section Name="Return">
+    <Member Name="Ret_Val" Datatype="Void" />
+  </Section>
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <Name>ROBOPROGRAMA</Name>
+      <Number>3</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <UDABlockProperties />
+      <UDAEnableTagReadback>false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text>                      S t a t u s m e l d u n g e n  
+                      =============================
+
+_FLG_IO        BIT         Folge und Rückmeldung IO
+_FLG_NIO       BIT         Folge NIO , ist mehr als eine Folge angewählt
+_RFLG          BIT         Rückmeldung vom Roboter , Folge ist angewählt
+_RFLG_NIO      BIT         Folge PLC und Folge Roboter sind nicht gleich
+
+  PLC-Programm               FC3 BIT =&gt; BYTE              Roboter
+  ============               ===============              =======
+_FLG_1 ... _FLG_15   ====&gt;     _FLG_1_15         ====&gt;     Folge   
+        BIT                       BYTE                      BYTE
+      Folge aus               Meldung Folge                  !
+    PLC-Programm               zum Roboter                  \!/
+                                                             !
+     _FLG_IO        &lt;====      _RFLG_1_15        &lt;====     Folge     
+       BIT                        BYTE                      BYTE
+    Folge und               Rückmeldung Folge 
+  Rückmeldung IO            vom Roboter an PLC
+</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text>                      S t a t u s m e l d u n g e n  
+                      =============================
+
+_FLG_IO        BIT         Folge und Rückmeldung IO
+_FLG_NIO       BIT         Folge NIO , ist mehr als eine Folge angewählt
+_RFLG          BIT         Rückmeldung vom Roboter , Folge ist angewählt
+_RFLG_NIO      BIT         Folge PLC und Folge Roboter sind nicht gleich
+
+  PLC-Programm               FC3 BIT =&gt; BYTE              Roboter
+  ============               ===============              =======
+_FLG_1 ... _FLG_15   ====&gt;     _FLG_1_15         ====&gt;     Folge   
+        BIT                       BYTE                      BYTE
+      Folge aus               Meldung Folge                  !
+    PLC-Programm               zum Roboter                  \!/
+                                                             !
+     _FLG_IO        &lt;====      _RFLG_1_15        &lt;====     Folge     
+       BIT                        BYTE                      BYTE
+    Folge und               Rückmeldung Folge 
+  Rückmeldung IO            vom Roboter an PLC
+</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="5" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><StatementList xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/StatementList/v3">
+  <StlStatement UId="22">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="24">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="8" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="26">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_2" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="28">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="9" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="30">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_3" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="32">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="10" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="34">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_4" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="36">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="11" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="38">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_5" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="40">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="12" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="42">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_6" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="44">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="13" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="46">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_7" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="48">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="14" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="50">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_8" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="52">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="15" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="54">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_9" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="56">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="0" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="58">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_10" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="60">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="1" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="62">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_11" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="64">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="2" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="66">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_12" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="68">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="3" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="70">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_13" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="72">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="4" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="74">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_14" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="76">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="5" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="78">
+    <StlToken Text="A" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_15" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="80">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="6" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="82">
+    <StlToken Text="A" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="7" />
+      <LineComment Inserted="false">
+        <Text> Rücksetzen der Statusinformationen</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="85">
+    <StlToken Text="AN" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="7" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="87">
+    <StlToken Text="Assign" />
+    <Access Scope="Address">
+      <Address Area="Local" Type="Bool" BitOffset="7" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="89">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_IO" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="91">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_NIO" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="93">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_RFLG_NIO" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+</StatementList></NetworkSource>
+          <ProgrammingLanguage>STL</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="9" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text>Bit => Word </Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text>Bit => Word </Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="E" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><StatementList xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/StatementList/v3">
+  <StlStatement UId="95">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="97">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="99">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="100">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG0" />
+      <LineComment Inserted="false">
+        <Text> keine Folge angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="103">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="104">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>1</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="106">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="108">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="109">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG1" />
+      <LineComment Inserted="false">
+        <Text> Folge 1 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="112">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="113">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="115">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="117">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="118">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG2" />
+      <LineComment Inserted="false">
+        <Text> Folge 2 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="121">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="122">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>4</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="124">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="126">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="127">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG3" />
+      <LineComment Inserted="false">
+        <Text> Folge 3 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="130">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="131">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>8</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="133">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="135">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="136">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG4" />
+      <LineComment Inserted="false">
+        <Text> Folge 4 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="139">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="140">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>16</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="142">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="144">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="145">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG5" />
+      <LineComment Inserted="false">
+        <Text> Folge 5 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="148">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="149">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>32</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="151">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="153">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="154">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG6" />
+      <LineComment Inserted="false">
+        <Text> Folge 6 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="157">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="158">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>64</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="160">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="162">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="163">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG7" />
+      <LineComment Inserted="false">
+        <Text> Folge 7 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="166">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="167">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>128</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="169">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="171">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="172">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG8" />
+      <LineComment Inserted="false">
+        <Text> Folge 8 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="175">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="176">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>256</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="178">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="180">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="181">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FLG9" />
+      <LineComment Inserted="false">
+        <Text> Folge 9 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="184">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="185">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>512</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="187">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="189">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="190">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FL10" />
+      <LineComment Inserted="false">
+        <Text> Folge 10 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="193">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="194">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>1024</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="196">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="198">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="199">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FL11" />
+      <LineComment Inserted="false">
+        <Text> Folge 11 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="202">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="203">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>2048</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="205">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="207">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="208">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FL12" />
+      <LineComment Inserted="false">
+        <Text> Folge 12 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="211">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="212">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>4096</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="214">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="216">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="217">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FL13" />
+      <LineComment Inserted="false">
+        <Text> Folge 13 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="220">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="221">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>8192</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="223">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="225">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="226">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FL14" />
+      <LineComment Inserted="false">
+        <Text> Folge 14 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="229">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="230">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>16384</ConstantValue>
+      </Constant>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="232">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="Folge_TEMP" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="234">
+    <StlToken Text="EQ_I" />
+  </StlStatement>
+  <StlStatement UId="235">
+    <StlToken Text="JC" />
+    <Access Scope="Label">
+      <Label Name="FL15" />
+      <LineComment Inserted="false">
+        <Text> Folge 15 angewählt</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="238">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="239">
+    <StlToken Text="AN" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_NIO" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Mehr als eine Folge angewählt !!!</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="242">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_NIO" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Fehler Anwahl Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="245">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="246">
+    <LabelDeclaration>
+      <Label Name="FLG0" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="248">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 0</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="251">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="254">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ENDE" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="256">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="257">
+    <LabelDeclaration>
+      <Label Name="FLG1" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="259">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>1</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 1</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="262">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="265">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="267">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="268">
+    <LabelDeclaration>
+      <Label Name="FLG2" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="270">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>2</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 2</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="273">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="276">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="278">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="279">
+    <LabelDeclaration>
+      <Label Name="FLG3" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="281">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>3</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 3</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="284">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="287">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="289">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="290">
+    <LabelDeclaration>
+      <Label Name="FLG4" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="292">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>4</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 4</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="295">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="298">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="300">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="301">
+    <LabelDeclaration>
+      <Label Name="FLG5" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="303">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>5</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 5</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="306">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="309">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="311">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="312">
+    <LabelDeclaration>
+      <Label Name="FLG6" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="314">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>6</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 6</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="317">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="320">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="322">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="323">
+    <LabelDeclaration>
+      <Label Name="FLG7" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="325">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>7</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 7</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="328">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="331">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="333">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="334">
+    <LabelDeclaration>
+      <Label Name="FLG8" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="336">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>8</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 8</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="339">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="342">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="344">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="345">
+    <LabelDeclaration>
+      <Label Name="FLG9" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="347">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>9</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 9</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="350">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="353">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="355">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="356">
+    <LabelDeclaration>
+      <Label Name="FL10" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="358">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>10</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 10</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="361">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="364">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="366">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="367">
+    <LabelDeclaration>
+      <Label Name="FL11" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="369">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>11</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 11</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="372">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="375">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="377">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="378">
+    <LabelDeclaration>
+      <Label Name="FL12" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="380">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>12</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 12</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="383">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="386">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="388">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="389">
+    <LabelDeclaration>
+      <Label Name="FL13" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="391">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>13</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 13</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="394">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="397">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="399">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="400">
+    <LabelDeclaration>
+      <Label Name="FL14" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="402">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>14</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 14</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="405">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="408">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="410">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="411">
+    <LabelDeclaration>
+      <Label Name="FL15" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="413">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>15</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 15</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="416">
+    <StlToken Text="T" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Schreibe nach Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="419">
+    <StlToken Text="JU" />
+    <Access Scope="Label">
+      <Label Name="ROBO" />
+    </Access>
+  </StlStatement>
+  <StlStatement UId="421">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="422">
+    <LabelDeclaration>
+      <Label Name="ROBO" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="424">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="425">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Lade Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="428">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_RFLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Lade Rückmeldung Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="431">
+    <StlToken Text="EQ_I" />
+    <LineComment Inserted="false">
+      <Text> Vergleiche</Text>
+    </LineComment>
+  </StlStatement>
+  <StlStatement UId="433">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_IO" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Folge und Rückmeldung IO</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="436">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="437">
+    <StlToken Text="AN" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_FLG_IO" />
+      </Symbol>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="439">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_RFLG_NIO" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Folge und Rückmeldung NIO</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="442">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="443">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="444">
+    <LabelDeclaration>
+      <Label Name="ENDE" />
+    </LabelDeclaration>
+    <StlToken Text="NOP_0" />
+  </StlStatement>
+  <StlStatement UId="446">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="447">
+    <StlToken Text="L" />
+    <Access Scope="LiteralConstant">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+      <LineComment Inserted="false">
+        <Text> Lade 0</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="450">
+    <StlToken Text="L" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_RFLG_1_15" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Lade Rückmeldung Folge</Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="453">
+    <StlToken Text="NE_I" />
+    <LineComment Inserted="false">
+      <Text> Vergleiche</Text>
+    </LineComment>
+  </StlStatement>
+  <StlStatement UId="455">
+    <StlToken Text="Assign" />
+    <Access Scope="LocalVariable">
+      <Symbol>
+        <Component Name="_RFLG" />
+      </Symbol>
+      <LineComment Inserted="false">
+        <Text> Folge angewählt </Text>
+      </LineComment>
+    </Access>
+  </StlStatement>
+  <StlStatement UId="458">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+</StatementList></NetworkSource>
+          <ProgrammingLanguage>STL</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="F" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="10" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="12" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="13" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="15" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="16" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="17" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="18" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text>Roboter FOLGE-Umwandelung von BIT auf BYTE </Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="19" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text>Roboter FOLGE-Umwandelung von BIT auf BYTE </Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="1A" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FC>
+</Document>

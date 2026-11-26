@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:42:49.3189787Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <Hmi.Screen.ScreenTemplate ID="0">
+    <AttributeList>
+      <ActiveLayer>0</ActiveLayer>
+      <BackColor>192, 192, 192</BackColor>
+      <GridColor>0, 0, 0</GridColor>
+      <Height>732</Height>
+      <Name>Template</Name>
+      <SetTabOrderInFront>true</SetTabOrderInFront>
+      <Width>1280</Width>
+    </AttributeList>
+    <ObjectList>
+      <Hmi.Screen.ScreenLayer ID="1" CompositionName="Layers">
+        <AttributeList>
+          <Index>0</Index>
+          <Name>Layer_0</Name>
+          <VisibleES>true</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="2" CompositionName="Layers">
+        <AttributeList>
+          <Index>1</Index>
+          <Name>Layer_1</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="3" CompositionName="Layers">
+        <AttributeList>
+          <Index>2</Index>
+          <Name>Layer_2</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="4" CompositionName="Layers">
+        <AttributeList>
+          <Index>3</Index>
+          <Name>Layer_3</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="5" CompositionName="Layers">
+        <AttributeList>
+          <Index>4</Index>
+          <Name>Layer_4</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="6" CompositionName="Layers">
+        <AttributeList>
+          <Index>5</Index>
+          <Name>Layer_5</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="7" CompositionName="Layers">
+        <AttributeList>
+          <Index>6</Index>
+          <Name>Layer_6</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="8" CompositionName="Layers">
+        <AttributeList>
+          <Index>7</Index>
+          <Name>Layer_7</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="9" CompositionName="Layers">
+        <AttributeList>
+          <Index>8</Index>
+          <Name>Layer_8</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="A" CompositionName="Layers">
+        <AttributeList>
+          <Index>9</Index>
+          <Name>Layer_9</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="B" CompositionName="Layers">
+        <AttributeList>
+          <Index>10</Index>
+          <Name>Layer_10</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="C" CompositionName="Layers">
+        <AttributeList>
+          <Index>11</Index>
+          <Name>Layer_11</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="D" CompositionName="Layers">
+        <AttributeList>
+          <Index>12</Index>
+          <Name>Layer_12</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="E" CompositionName="Layers">
+        <AttributeList>
+          <Index>13</Index>
+          <Name>Layer_13</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="F" CompositionName="Layers">
+        <AttributeList>
+          <Index>14</Index>
+          <Name>Layer_14</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="10" CompositionName="Layers">
+        <AttributeList>
+          <Index>15</Index>
+          <Name>Layer_15</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="11" CompositionName="Layers">
+        <AttributeList>
+          <Index>16</Index>
+          <Name>Layer_16</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="12" CompositionName="Layers">
+        <AttributeList>
+          <Index>17</Index>
+          <Name>Layer_17</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="13" CompositionName="Layers">
+        <AttributeList>
+          <Index>18</Index>
+          <Name>Layer_18</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="14" CompositionName="Layers">
+        <AttributeList>
+          <Index>19</Index>
+          <Name>Layer_19</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="15" CompositionName="Layers">
+        <AttributeList>
+          <Index>20</Index>
+          <Name>Layer_20</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="16" CompositionName="Layers">
+        <AttributeList>
+          <Index>21</Index>
+          <Name>Layer_21</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="17" CompositionName="Layers">
+        <AttributeList>
+          <Index>22</Index>
+          <Name>Layer_22</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="18" CompositionName="Layers">
+        <AttributeList>
+          <Index>23</Index>
+          <Name>Layer_23</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="19" CompositionName="Layers">
+        <AttributeList>
+          <Index>24</Index>
+          <Name>Layer_24</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="1A" CompositionName="Layers">
+        <AttributeList>
+          <Index>25</Index>
+          <Name>Layer_25</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="1B" CompositionName="Layers">
+        <AttributeList>
+          <Index>26</Index>
+          <Name>Layer_26</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="1C" CompositionName="Layers">
+        <AttributeList>
+          <Index>27</Index>
+          <Name>Layer_27</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="1D" CompositionName="Layers">
+        <AttributeList>
+          <Index>28</Index>
+          <Name>Layer_28</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="1E" CompositionName="Layers">
+        <AttributeList>
+          <Index>29</Index>
+          <Name>Layer_29</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="1F" CompositionName="Layers">
+        <AttributeList>
+          <Index>30</Index>
+          <Name>Layer_30</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.ScreenLayer ID="20" CompositionName="Layers">
+        <AttributeList>
+          <Index>31</Index>
+          <Name>Layer_31</Name>
+          <VisibleES>false</VisibleES>
+        </AttributeList>
+      </Hmi.Screen.ScreenLayer>
+      <Hmi.Screen.SoftKey ID="21" CompositionName="SoftKeys">
+        <AttributeList>
+          <GlobalAssignment>false</GlobalAssignment>
+          <KeyCode>200</KeyCode>
+          <LEDTagBitNumber>0</LEDTagBitNumber>
+          <ObjectName>Softkey_F1</ObjectName>
+        </AttributeList>
+        <LinkList>
+          <Authorization TargetID="@OpenLink">
+            <Name>Administración de usuarios</Name>
+          </Authorization>
+        </LinkList>
+        <ObjectList>
+          <Hmi.Event.Event ID="23" CompositionName="Events">
+            <AttributeList>
+              <Name>KeyUp</Name>
+            </AttributeList>
+            <ObjectList>
+              <Hmi.Event.FunctionListEventHandler ID="24" CompositionName="EventHandler">
+                <ObjectList>
+                  <Hmi.Event.FunctionListEntry ID="25" CompositionName="FunctionListEntries">
+                    <AttributeList>
+                      <Name>StopRuntime</Name>
+                      <Type>SystemFunction</Type>
+                    </AttributeList>
+                    <ObjectList>
+                      <Hmi.Event.FunctionListEntryParameter ID="26" CompositionName="Parameters">
+                        <AttributeList>
+                          <Name>Mode</Name>
+                          <Value Type="System.Int32">0</Value>
+                        </AttributeList>
+                      </Hmi.Event.FunctionListEntryParameter>
+                    </ObjectList>
+                  </Hmi.Event.FunctionListEntry>
+                </ObjectList>
+              </Hmi.Event.FunctionListEventHandler>
+            </ObjectList>
+          </Hmi.Event.Event>
+        </ObjectList>
+      </Hmi.Screen.SoftKey>
+      <Hmi.Screen.SoftKey ID="27" CompositionName="SoftKeys">
+        <AttributeList>
+          <GlobalAssignment>false</GlobalAssignment>
+          <KeyCode>210</KeyCode>
+          <LEDTagBitNumber>0</LEDTagBitNumber>
+          <ObjectName>Softkey_F2</ObjectName>
+        </AttributeList>
+        <ObjectList>
+          <Hmi.Event.Event ID="28" CompositionName="Events">
+            <AttributeList>
+              <Name>KeyUp</Name>
+            </AttributeList>
+            <ObjectList>
+              <Hmi.Event.FunctionListEventHandler ID="29" CompositionName="EventHandler">
+                <ObjectList>
+                  <Hmi.Event.FunctionListEntry ID="2A" CompositionName="FunctionListEntries">
+                    <AttributeList>
+                      <Name>ActivateScreen</Name>
+                      <Type>SystemFunction</Type>
+                    </AttributeList>
+                    <ObjectList>
+                      <Hmi.Event.FunctionListEntryParameter ID="2B" CompositionName="Parameters">
+                        <AttributeList>
+                          <Name>Screen name</Name>
+                        </AttributeList>
+                        <LinkList>
+                          <Value TargetID="@OpenLink">
+                            <Name>090_SEÑAS</Name>
+                          </Value>
+                        </LinkList>
+                      </Hmi.Event.FunctionListEntryParameter>
+                      <Hmi.Event.FunctionListEntryParameter ID="2D" CompositionName="Parameters">
+                        <AttributeList>
+                          <Name>Object number</Name>
+                          <Value Type="System.Int32">0</Value>
+                        </AttributeList>
+                      </Hmi.Event.FunctionListEntryParameter>
+                    </ObjectList>
+                  </Hmi.Event.FunctionListEntry>
+                </ObjectList>
+              </Hmi.Event.FunctionListEventHandler>
+            </ObjectList>
+          </Hmi.Event.Event>
+        </ObjectList>
+      </Hmi.Screen.SoftKey>
+    </ObjectList>
+  </Hmi.Screen.ScreenTemplate>
+</Document>

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:30:29.0550656Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.OB ID="0">
+    <AttributeList>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="Temp">
+    <Member Name="OB121_EV_CLASS" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">16#25, Event class 2, Entering event state, Internal fault event</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">16#25, Event class 2, Entering event state, Internal fault event</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_SW_FLT" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">16#XX Software programming fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">16#XX Software programming fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_PRIORITY" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Priority of OB Execution</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Priority of OB Execution</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_OB_NUMBR" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">121 (Organization block 121, OB121)</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">121 (Organization block 121, OB121)</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_BLK_TYPE" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">16#88/8A/8B/8C/8E Type of block fault occured in</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">16#88/8A/8B/8C/8E Type of block fault occured in</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_RESERVED_1" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Reserved for system</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Reserved for system</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_FLT_REG" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">16#XX Specific register that caused fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">16#XX Specific register that caused fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_BLK_NUM" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Number of block that programming fault occured in</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Number of block that programming fault occured in</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_PRG_ADDR" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Address in block where programming fault occured</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Address in block where programming fault occured</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB121_DATE_TIME" Datatype="Date_And_Time">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Date and time OB121 started</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Date and time OB121 started</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+  <Section Name="Constant" />
+</Sections></Interface>
+      <Name>PROG_ERR</Name>
+      <Number>121</Number>
+      <ProgrammingLanguage>STL</ProgrammingLanguage>
+      <SecondaryType>ProgrammingError</SecondaryType>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="5" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><StatementList xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/StatementList/v3">
+  <StlStatement UId="22">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+  <StlStatement UId="23">
+    <StlToken Text="EMPTY_LINE" />
+  </StlStatement>
+</StatementList></NetworkSource>
+          <ProgrammingLanguage>STL</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="9" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-ES</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>es-AR</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>de-DE</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="E" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="F" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text> "Programming Error"</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="10" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text> "Programming Error"</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="11" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.OB>
+</Document>

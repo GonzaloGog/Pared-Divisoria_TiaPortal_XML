@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:30:29.0085987Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.OB ID="0">
+    <AttributeList>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="Temp">
+    <Member Name="OB82_EV_CLASS" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">16#39, Event class 3, Entering event state, Internal fault event</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">16#39, Event class 3, Entering event state, Internal fault event</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_FLT_ID" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">16#XX, Fault identifcation code</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">16#XX, Fault identifcation code</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_PRIORITY" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Priority of OB Execution</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Priority of OB Execution</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_OB_NUMBR" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">82 (Organization block 82, OB82)</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">82 (Organization block 82, OB82)</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_RESERVED_1" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Reserved for system</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Reserved for system</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_IO_FLAG" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Input (01010100), Output (01010101)</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Input (01010100), Output (01010101)</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_MDL_ADDR" Datatype="Word">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Base address of module with fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Base address of module with fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_MDL_DEFECT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Module defective</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Module defective</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_INT_FAULT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Internal fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Internal fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_EXT_FAULT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">External fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">External fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_PNT_INFO" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Point information</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Point information</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_EXT_VOLTAGE" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">External voltage low</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">External voltage low</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_FLD_CONNCTR" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Field wiring connector missing</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Field wiring connector missing</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_NO_CONFIG" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Module has no configuration data</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Module has no configuration data</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_CONFIG_ERR" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Module has configuration error</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Module has configuration error</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_MDL_TYPE" Datatype="Byte">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Type of module</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Type of module</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_SUB_MDL_ERR" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Sub-Module is missing or has error</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Sub-Module is missing or has error</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_COMM_FAULT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Communication fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Communication fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_MDL_STOP" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Module is stopped</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Module is stopped</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_WTCH_DOG_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Watch dog timer stopped module</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Watch dog timer stopped module</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_INT_PS_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Internal power supply fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Internal power supply fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_PRIM_BATT_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Primary battery is in fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Primary battery is in fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_BCKUP_BATT_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Backup battery is in fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Backup battery is in fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_RESERVED_2" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Reserved for system</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Reserved for system</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_RACK_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Rack fault, only for bus interface module</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Rack fault, only for bus interface module</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_PROC_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Processor fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Processor fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_EPROM_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">EPROM fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">EPROM fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_RAM_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">RAM fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">RAM fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_ADU_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">ADU fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">ADU fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_FUSE_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Fuse fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Fuse fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_HW_INTR_FLT" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Hardware interupt input in fault</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Hardware interupt input in fault</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_RESERVED_3" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Reserved for system</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Reserved for system</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="OB82_DATE_TIME" Datatype="Date_And_Time">
+      <Comment>
+        <MultiLanguageText Lang="es-ES">Date and time OB82 started</MultiLanguageText>
+        <MultiLanguageText Lang="es-AR">Date and time OB82 started</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="NR_STATION" Datatype="Word" />
+  </Section>
+  <Section Name="Constant" />
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <Name>I/O_FLT1</Name>
+      <Number>82</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SecondaryType>DiagnosticErrorInterrupt</SecondaryType>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text> "I/O Point Fault"</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text> "I/O Point Fault"</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.OB>
+</Document>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:30:53.1011944Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <InstanceOfName>ZONA05_ST_060</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="KLSG1_SN01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="KLSG2_SN01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_R1" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_R2" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_R3" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_KSEG" Datatype="FDBACK" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ON" Datatype="Bool" /><Member Name="FEEDBACK" Datatype="Bool" /><Member Name="QBAD_FIO" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="FDB_TIME" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST060G1_ACCESO" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="T_ODT_IF" Datatype="TON" Version="1.0" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="IN" Datatype="Bool" /><Member Name="PT" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ET" Datatype="Time" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_G1_BOBINA_ACCESO" Datatype="FDBACK" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ON" Datatype="Bool" /><Member Name="FEEDBACK" Datatype="Bool" /><Member Name="QBAD_FIO" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="FDB_TIME" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST060G2_ACCESO" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_G2_BOBINA_ACCESO" Datatype="FDBACK" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ON" Datatype="Bool" /><Member Name="FEEDBACK" Datatype="Bool" /><Member Name="QBAD_FIO" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="FDB_TIME" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="060_LC01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="060_LC02" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="T_ODT_IF_2" Datatype="TON" Version="1.0" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="IN" Datatype="Bool" /><Member Name="PT" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ET" Datatype="Time" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="060_LC01_MUTT" Datatype="MUTING" Version="1.0" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="MS_11" Datatype="Bool" /><Member Name="MS_12" Datatype="Bool" /><Member Name="MS_21" Datatype="Bool" /><Member Name="MS_22" Datatype="Bool" /><Member Name="STOP" Datatype="Bool" /><Member Name="FREE" Datatype="Bool" /><Member Name="QBAD_MUT" Datatype="Bool" /><Member Name="DISCTIM1" Datatype="Time" /><Member Name="DISCTIM2" Datatype="Time" /><Member Name="TIME_MAX" Datatype="Time" /><Member Name="ACK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="MUTING" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="FAULT" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="060_LC02_MUTT" Datatype="MUTING" Version="1.0" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="MS_11" Datatype="Bool" /><Member Name="MS_12" Datatype="Bool" /><Member Name="MS_21" Datatype="Bool" /><Member Name="MS_22" Datatype="Bool" /><Member Name="STOP" Datatype="Bool" /><Member Name="FREE" Datatype="Bool" /><Member Name="QBAD_MUT" Datatype="Bool" /><Member Name="DISCTIM1" Datatype="Time" /><Member Name="DISCTIM2" Datatype="Time" /><Member Name="TIME_MAX" Datatype="Time" /><Member Name="ACK" Datatype="Bool" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="MUTING" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="FAULT" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="OP10_SN01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="OP20_SN01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="060_20_LC01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="060_10_SC01" Datatype="ESTOP1" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="E_STOP" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="TIME_DEL" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="Q_DELAY" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_10_KSEG" Datatype="FDBACK" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ON" Datatype="Bool" /><Member Name="FEEDBACK" Datatype="Bool" /><Member Name="QBAD_FIO" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="FDB_TIME" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="ST_060_20_KSEG" Datatype="FDBACK" Version="1.1" Remanence="NonRetain"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ON" Datatype="Bool" /><Member Name="FEEDBACK" Datatype="Bool" /><Member Name="QBAD_FIO" Datatype="Bool" /><Member Name="ACK_NEC" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="FDB_TIME" Datatype="Time" /></Section><Section Name="Output"><Member Name="Q" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="ACK_REQ" Datatype="Bool" /><Member Name="DIAG" Datatype="Byte" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <Name>ZONA05_ST_060_DB</Name>
+      <Number>84</Number>
+      <ProgrammingLanguage>F_DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>

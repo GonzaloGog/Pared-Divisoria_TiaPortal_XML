@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2026-11-03T15:31:06.8044235Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>G110M, G120, G120C, G120D, G120P</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SIMATIC Visualization Architect</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+  <Section Name="None">
+    <Member Name="FUNCIONES" Datatype="&quot;sdMESA_D_FUNCIONES&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="PET_AV" Datatype="Bool" /><Member Name="PET_REV" Datatype="Bool" /><Member Name="MANUAL" Datatype="Bool" /><Member Name="AUTOMATICO" Datatype="Bool" /><Member Name="EMG" Datatype="Bool" /><Member Name="RST_ FALLAS" Datatype="Bool" /><Member Name="DISPONIBLE_0" Datatype="Bool" /><Member Name="DISPONIBLE_1" Datatype="Bool" /><Member Name="DISPONIBLE_2" Datatype="Bool" /><Member Name="DISPONIBLE_3" Datatype="Bool" /><Member Name="DISPONIBLE_4" Datatype="Bool" /><Member Name="DISPONIBLE_5" Datatype="Bool" /><Member Name="DISPONIBLE_6" Datatype="Bool" /><Member Name="DISPONIBLE_7" Datatype="Bool" /><Member Name="DISPONIBLE_8" Datatype="Bool" /><Member Name="DISPONIBLE_9" Datatype="Bool" /><Member Name="DISPONIBLE_10" Datatype="Bool" /><Member Name="DISPONIBLE_11" Datatype="Bool" /><Member Name="DISPONIBLE_12" Datatype="Bool" /><Member Name="DISPONIBLE_13" Datatype="Bool" /><Member Name="DISPONIBLE_14" Datatype="Bool" /><Member Name="DISPONIBLE_15" Datatype="Bool" /><Member Name="DISPONIBLE_16" Datatype="Bool" /><Member Name="DISPONIBLE_17" Datatype="Bool" /><Member Name="DISPONIBLE_18" Datatype="Bool" /><Member Name="DISPONIBLE_19" Datatype="Bool" /><Member Name="DISPONIBLE_20" Datatype="Bool" /><Member Name="DISPONIBLE_21" Datatype="Bool" /><Member Name="DISPONIBLE_22" Datatype="Bool" /><Member Name="DISPONIBLE_23" Datatype="Bool" /><Member Name="DISPONIBLE_24" Datatype="Bool" /><Member Name="DISPONIBLE_25" Datatype="Bool" /></Section></Sections></Member>
+    <Member Name="ESTADOS" Datatype="&quot;sdMESA_D_ESTADOS&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="CARGADA" Datatype="Bool" /><Member Name="LIB_MOV_ARRIBA" Datatype="Bool" /><Member Name="LIB_MOV_ABAJO" Datatype="Bool" /><Member Name="PET_AV_ARRIBA" Datatype="Bool" /><Member Name="PET_AV_ABAJO" Datatype="Bool" /><Member Name="FALLA_MESA" Datatype="Bool" /><Member Name="JOG_AV" Datatype="Bool" /><Member Name="JOG_RV" Datatype="Bool" /><Member Name="LIB_MOV_EXT_AV" Datatype="Bool" /><Member Name="LIB_MOV_EXT_REV" Datatype="Bool" /><Member Name="POS_ARRIBA_OK" Datatype="Bool" /><Member Name="POS_ABAJO_OK" Datatype="Bool" /><Member Name="VEL_LENTA_AV" Datatype="Bool" /><Member Name="VEL_LENTA_REV" Datatype="Bool" /><Member Name="VEL_RAP_AV" Datatype="Bool" /><Member Name="VEL_RAP_REV" Datatype="Bool" /><Member Name="ENTRE_MEDIO_ABAJO" Datatype="Bool" /><Member Name="ENTRE_MEDIO_ARRIBA" Datatype="Bool" /><Member Name="PET_MEDIO" Datatype="Bool" /><Member Name="EST_DISPONBLE_9" Datatype="Bool" /><Member Name="EST_DISPONBLE_10" Datatype="Bool" /><Member Name="FLANCO_MEDIO_ABAJO" Datatype="Bool" /><Member Name="FLANCO_MEDIO_ARRIBA" Datatype="Bool" /><Member Name="EST_DISPONBLE_13" Datatype="Bool" /><Member Name="FALLA_BLOQ" Datatype="Bool" /><Member Name="INVERTIDO" Datatype="Bool" /><Member Name="EST_DISPONBLE_16" Datatype="Bool" /></Section></Sections></Member>
+    <Member Name="ENTRADAS" Datatype="&quot;sdMESA_D_ENTRADAS&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="SW_ALIM_MOTOR" Datatype="Bool" /><Member Name="SW_PAR_ARRIBA" Datatype="Bool" /><Member Name="SW_PAR_ABAJO" Datatype="Bool" /><Member Name="SW_LENTO_ARRIBA" Datatype="Bool" /><Member Name="SW_LENTO_ABAJO" Datatype="Bool" /><Member Name="SW_EXT_ARRIBA" Datatype="Bool" /><Member Name="SW_EXT_ABAJO" Datatype="Bool" /><Member Name="DISJ_TERMICO_1" Datatype="Bool" /><Member Name="DISJ_TERMICO_2" Datatype="Bool" /><Member Name="DISJ_TERMICO_3" Datatype="Bool" /><Member Name="DISJ_TERMICO_4" Datatype="Bool" /><Member Name="SW_PAR_MEDIO" Datatype="Bool" /><Member Name="SW_LENTO_MEDIO" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_3" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_4" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_5" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_6" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_7" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_8" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_9" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_10" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_11" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_12" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_13" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_14" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_15" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_16" Datatype="Bool" /><Member Name="ENT_DISPONIBLE_17" Datatype="Bool" /><Member Name="DESCENSOR_PZD1_IN" Datatype="Word" /><Member Name="DESCENSOR_PZD2_IN" Datatype="Word" /><Member Name="DESCENSOR_PZD3_IN" Datatype="Word" /><Member Name="DESCENSOR_PZD4_IN" Datatype="Word" /><Member Name="DESCENSOR_PZD5_IN" Datatype="Word" /><Member Name="DESCENSOR_PZD6_IN" Datatype="Word" /><Member Name="DESCENSOR_PZD7_IN" Datatype="Word" /></Section></Sections></Member>
+    <Member Name="SALIDAS" Datatype="&quot;sdMESA_D_SALIDAS&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="MOT1_AV" Datatype="Bool" /><Member Name="MOT1_REV" Datatype="Bool" /><Member Name="CONSIG_AV_RAPIDO" Datatype="Word" /><Member Name="CONSIG_AV_LENTO" Datatype="Word" /><Member Name="CONSIG_REV_RAPIDO" Datatype="Word" /><Member Name="CONSIG_REV_LENTO" Datatype="Word" /><Member Name="SAL_DISPONIBLE_1" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_2" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_3" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_4" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_5" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_6" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_7" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_8" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_9" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_10" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_11" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_12" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_13" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_14" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_15" Datatype="Bool" /><Member Name="SAL_DISPONIBLE_16" Datatype="Bool" /><Member Name="GSD120D_PZD1_OUT" Datatype="Word" /><Member Name="GSD120D_PZD2_OUT" Datatype="Word" /><Member Name="GSD120D_PZD3_OUT" Datatype="Word" /><Member Name="GSD120D_PZD4_OUT" Datatype="Word" /><Member Name="GSD120D_PZD5_OUT" Datatype="Word" /><Member Name="GSD120D_PZD6_OUT" Datatype="Word" /><Member Name="GSD120D_PZD7_OUT" Datatype="Word" /></Section></Sections></Member>
+    <Member Name="INTERCOMM" Datatype="&quot;sdMESA_D_INTERCOMM&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="PET_DESC_ANT" Datatype="Bool" /><Member Name="AUT_CARGA_ANT" Datatype="Bool" /><Member Name="CARG_ANT" Datatype="Bool" /><Member Name="MOT1_REV_ANT" Datatype="Bool" /><Member Name="SELEC_ANT" Datatype="Bool" /><Member Name="MOT1_REV_LENTO_ANT" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_1" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_2" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_3" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_4" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_5" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_6" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_7" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_8" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_9" Datatype="Bool" /><Member Name="INTERCOMM_DISPO_10" Datatype="Bool" /><Member Name="PET_DESC_POS" Datatype="Bool" /><Member Name="AUT_CARGA_POS" Datatype="Bool" /><Member Name="CARG_POS" Datatype="Bool" /><Member Name="MOT1_AV_POS" Datatype="Bool" /><Member Name="SELEC_POS" Datatype="Bool" /><Member Name="MOT1_AV_LENTO_POS" Datatype="Bool" /></Section></Sections></Member>
+    <Member Name="FALLAS" Datatype="&quot;sdMESA_FALLAS&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="WORD_FAULT_1" Datatype="Word" /><Member Name="WORD_FAULT_2" Datatype="Word" /><Member Name="WORD_FAULT_3" Datatype="Word" /><Member Name="GUARDAMOTOR_1" Datatype="Bool" /><Member Name="GUARDAMOTOR_2" Datatype="Bool" /><Member Name="GUARDAMOTOR_3" Datatype="Bool" /><Member Name="CONTACTOR_1" Datatype="Bool" /><Member Name="CONTACTOR_2" Datatype="Bool" /><Member Name="CONTACTOR_3" Datatype="Bool" /><Member Name="PROFINET" Datatype="Bool" /><Member Name="VARIADOR" Datatype="Bool" /><Member Name="TIMEOUT" Datatype="Bool" /><Member Name="SOBRECURSO" Datatype="Bool" /><Member Name="SOBRECURSO_0" Datatype="Bool" /><Member Name="SOBRECURSO_1" Datatype="Bool" /><Member Name="SOBRECURSO_2" Datatype="Bool" /></Section></Sections></Member>
+    <Member Name="CONTROL" Datatype="&quot;CONTROL&quot;"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="EST_0" Datatype="Bool" /><Member Name="EST_1" Datatype="Bool" /><Member Name="TAV" Datatype="Bool" /><Member Name="TAR" Datatype="Bool" /><Member Name="EST_2" Datatype="Bool" /><Member Name="SALVA" Datatype="Bool" /><Member Name="Fault_ON" Datatype="Bool" /><Member Name="Fault_OFF" Datatype="Bool" /><Member Name="RESET" Datatype="Bool" /><Member Name="Tempo" Datatype="Array[0..4] of Byte" /><Member Name="Estado" Datatype="Int" /></Section></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <IsFailsafeCompliant>false</IsFailsafeCompliant>
+      <Name>MESA_DESCENSOR</Name>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="5" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-ES</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="7" CompositionName="Items">
+            <AttributeList>
+              <Culture>es-AR</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="8" CompositionName="Items">
+            <AttributeList>
+              <Culture>de-DE</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>
